@@ -1,0 +1,14 @@
+a {
+  display: block;
+  border: 1px solid black;
+}
+
+/*exemple fiche Notion Extralearning>Mimo>HTML CSS Intermédiaire*/
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+}

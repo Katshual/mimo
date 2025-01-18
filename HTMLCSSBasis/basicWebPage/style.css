@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+html {
+  background-color: antiquewhite;
+}
+.bordure {
+  border: 5px solid rgb(241, 210, 210);
+  padding: 10px;
+}

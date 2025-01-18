@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#step1,
+#step2,
+#step3 {
+  border: 1px solid black;
+  height: auto;
+  width: 200px;
+  text-align: center;
+  padding-top: 5px;
+}
+#container {
+  display: flex;
+
+  /* flex direction par défaut (question 2.)
+  flex-direction: row;
+  */
+  flex-direction: column;
+}

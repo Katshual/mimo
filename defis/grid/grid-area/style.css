@@ -1,0 +1,41 @@
+:root {
+  background-color: #3e416d;
+  font-family: inter, sans-serif;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  text-align: center;
+}
+
+.section-one {
+  background-color: red;
+  grid-area: one;
+}
+
+.section-two {
+  background-color: skyblue;
+  grid-area: two;
+}
+
+.section-three {
+  background-color: orange;
+  grid-area: three;
+}
+
+.section-four {
+  background-color: yellow;
+  grid-area: four;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 125px);
+  grid-template-areas: auto;
+  grid-template-areas:
+    "one one"
+    "two three"
+    "four four";
+}

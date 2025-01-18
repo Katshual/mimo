@@ -1,0 +1,84 @@
+:root {
+  background-color: #3e416d;
+  font-family: lato, sans-serif;
+}
+
+.grid-container-one {
+  background-color: #63d198;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: start;
+}
+
+.grid-container-two {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: stretch;
+}
+
+.grid-container-three {
+  background-color: whitesmoke;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-container-four {
+  background-color: #63d198;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.section-one {
+  background-color: #056534;
+  padding: 20px;
+  color: white;
+}
+
+.section-two {
+  background-color: #0ce475;
+  padding: 20px;
+}
+
+.section-three {
+  background-color: #056534;
+  padding: 20px;
+  color: white;
+}
+
+.section-four {
+  background-color: #0ce475;
+  padding: 20px;
+}
+
+.section-five {
+  background-color: #056534;
+  padding: 20px;
+  color: white;
+}
+
+.section-six {
+  background-color: #0ce475;
+  padding: 20px;
+}
+
+.section-seven {
+  background-color: #056534;
+  padding: 20px;
+  color: white;
+}
+
+.section-eight {
+  background-color: #0ce475;
+  padding: 20px;
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: #3e4160;
+}
+
+img {
+  height: 250px;
+  width: auto;
+}
+
+.profile {
+  text-align: center;
+  background-color: indigo;
+  color: white;
+  width: 300px;
+  border-radius: 7px;
+  display: grid;
+  /*réponse à la question 2.
+  grid-template-columns: 50%;
+  grid-template-rows: auto;*/
+
+  /*réponse à la question 3.*/
+  grid-template: auto/50%;
+}

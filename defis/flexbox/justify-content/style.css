@@ -1,0 +1,14 @@
+.green {
+  background-color: green;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#shapes {
+  display: flex;
+  justify-content: center;
+}

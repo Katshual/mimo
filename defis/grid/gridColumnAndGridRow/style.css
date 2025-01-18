@@ -1,0 +1,24 @@
+html {
+  background-color: bisque;
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-align: center;
+  background-color: #ceffd2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: auto;
+  gap: 10px;
+}
+
+.trending {
+  text-align: center;
+  background-color: #af6cdf;
+  color: white;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}

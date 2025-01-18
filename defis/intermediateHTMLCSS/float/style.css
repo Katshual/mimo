@@ -1,0 +1,11 @@
+div {
+  max-width: 500px;
+}
+img {
+  width: 70%;
+  float: right;
+}
+
+p {
+  clear: right;
+}
