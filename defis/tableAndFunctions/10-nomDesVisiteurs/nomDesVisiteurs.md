@@ -1,0 +1,1 @@
+Appelle la fonction JS intégrée appropriée sur le tableau visitors pour créer un nouveau tableau contenant uniquement les noms qui commencent par la lettre "C". La fonction inline est fournie pour toi.

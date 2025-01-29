@@ -1,0 +1,1 @@
+Appelle la fonction JS appropriée sur le tableau kilograms pour convertir les valeurs en livres et stocke le tableau résultant dans une variable nommée pounds. La fonction inline est fournie pour toi.
