@@ -16,5 +16,5 @@ function isSafe(wind, rain) {
   } else {
     return false;
   }
-}====
+}
 console.log(isSafe(windSpeed, rainFall));
