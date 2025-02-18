@@ -25,3 +25,4 @@ console.log(parcel.eligible(100)); // Vérifie si le colis est éligible (via l'
 
 // Utilisation de la fonction globale
 console.log(eligible(parcel.length, parcel.width, parcel.depth, 100)); // Vérifie si le colis est éligible (via la fonction)
+code;
