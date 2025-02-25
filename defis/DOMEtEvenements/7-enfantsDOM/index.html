@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offre d'emploi</title>
+  </head>
+  <body>
+    <h1>Current Positions Open</h1>
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+    <script>
+      //Accède au 2nd élément enfant de body
+      const body = document.body; //Récupère l'élément
+      const jobs = body.children[1]; //Accède au 2nd élément enfant (index 1)
+      const firstChild = jobs.children[0]; // récupère le er enfant li
+      const secondChild = jobs.children[1]; // récupère le 2nd enfant li
+      firstChild.textContent = "Développeur Web"; //définis le texte du 1er enfant li
+      secondChild.textContent = "Scrum Master"; //définis le texte du 2nd enfant li
+    </script>
+  </body>
+</html>
